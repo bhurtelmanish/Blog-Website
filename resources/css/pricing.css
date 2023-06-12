@@ -1,0 +1,75 @@
+#pricing{
+    height: auto;
+    width:100%;
+    display: flex;
+    background-color: rgb(246, 246, 246);
+    justify-content: center;
+    align-items: center;
+    padding-top:1rem;
+    display: flex;
+    flex-direction: column;
+    padding-top: 2rem;
+}
+.pricing-header{
+    font-weight: 700;
+    font-size: 1.6rem;
+    margin-bottom: 2rem;
+}
+.pricing-card-container{
+    /* background-color: blue; */
+    height: 100%;
+    max-width: var(--maxwidth);
+    display: flex;
+    padding:1rem;
+    justify-content: center;
+    align-items: center;
+    gap:3rem;
+    flex-wrap: wrap;
+}
+.pricing-card{
+    height:22rem;
+    /* border:1px solid rgb(78, 78, 78); */
+    border:none;
+    outline:none;
+    width:19rem;
+    padding: 3rem 1rem 0 1rem;
+    background-color: white;
+}
+.pricing-card-btn{
+    cursor: pointer;
+    height: 3rem;
+    width: 100%;
+    background-color: transparent;
+    transition: .2s ease-in-out;
+    font-size: 1rem;
+    border:none;
+    outline:none;
+    background-color: var(--btnblue);
+    color:white;
+    margin-top:2rem;
+}
+.pricing-card-btn:hover{
+    transform: scale(1.03);
+}
+.pricing-card-contents h2{
+    margin-bottom:1rem;
+}
+.pricing-card-contents p{
+    margin-bottom:1rem;
+}
+.money{
+    display: flex;
+    justify-self: center;
+    align-items: center;
+}
+
+@media (max-width: 1000px) {
+    .pricing-card{
+        width:60%;
+    }
+}
+@media (max-width: 670px) {
+    .pricing-card{
+        width:80%;
+    }
+}

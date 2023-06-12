@@ -1,0 +1,95 @@
+#contact{
+    height: auto;
+    width: 100%;
+    padding: 3rem 0 3rem 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.contact-header{
+    font-weight: 700;
+    font-size: 1.6rem;
+    margin-top: 3rem;
+    text-align: center;
+}
+.contact-container{
+    width: var(--maxwidth);
+    height: 30rem;
+    /* margin-top: 3rem; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.contact-img{
+    height: 100%;
+    width:35rem;
+}
+.form{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width:35rem;
+    padding: 2rem 3rem 2rem 2rem;
+    background-color: rgb(246, 246, 246);
+}
+.textarea{
+    resize: none;
+    padding:1rem;
+}
+.name , .email , .textarea{
+    outline:none;   
+    border:1px solid rgb(200, 200, 200);
+}
+.contact-name , .contact-email , .contact-textarea , .contact-contactbtn{
+    display: flex;
+    flex-direction: column;
+    margin:0.5rem;
+}
+#contact-me{
+    height: 3rem;
+    width: 8rem;
+    background-color: transparent;
+    cursor: pointer;
+    transition: .2s ease-in-out;
+    font-size: 1rem;
+    border:none;
+    outline:none;
+    background-color: var(--btnblue);
+    color:white;
+}
+#contact-me:hover{
+    transform: scale(1.03);
+}
+.name , .email{
+    height: 2rem;
+    padding: 0 1rem 0 0.5rem;
+}
+
+
+@media (max-width:1121px) {
+    .contact-container{
+        height: auto;
+    }
+}
+@media (max-width: 700px) {
+    .contact-img{
+        width:80%;
+        height: auto;
+    }
+    .form{
+        width:80%;
+        height: auto;
+        padding: 0.8rem;
+    }
+    .textarea{
+        height: 10rem;
+    }
+    .name , .email , .textarea{
+        outline:none;
+        border: 1px solid ;
+    }
+}

@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Chilanka&family=Finlandica&family=Grenze+Gotisch&family=Hubballi&family=Inter:wght@500&family=Lato&family=Lobster&family=Lobster+Two:wght@700&family=Manrope:wght@300&family=Martel&family=Open+Sans&family=Poppins:wght@200;300&family=Quicksand&family=Roboto:wght@100;300;700&family=Sansita+Swashed:wght@300&family=Wix+Madefor+Display:wght@500&display=swap');
+
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+    /* border:2px solid red; */
+}
+html{
+    scroll-behavior: smooth;
+}
+body{
+    overflow-x: hidden;
+}
+:root{
+     --navheight: 75px;
+    --btncolor: rgb(20, 20, 20);
+    --blue: rgb(100, 100, 255);
+    --btnblue: rgb(115, 115, 255);
+    --maxwidth: 70rem;
+}
+::-webkit-search-cancel-button{
+    display: none;
+}
